@@ -12,7 +12,7 @@ import { MaterialModule } from '../../shared/material/material.module';
   standalone: true,
   imports: [RouterLink, MaterialModule],
   templateUrl: './listado.component.html',
-  styleUrl: './listado.component.css'
+  styleUrl: './listado.component.scss'
 })
 export class ListadoComponent {
 

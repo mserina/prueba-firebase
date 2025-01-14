@@ -9,7 +9,7 @@ import { Articulo } from '../../modelos/articulo';
   standalone: true,
   imports: [],
   templateUrl: './detalle.component.html',
-  styleUrl: './detalle.component.css'
+  styleUrl: './detalle.component.scss'
 })
 export class DetalleComponent {
 
