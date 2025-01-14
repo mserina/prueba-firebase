@@ -2,12 +2,15 @@ import { Component, inject } from '@angular/core';
 import { Firestore } from '@angular/fire/firestore';
 import { ServicioFireStoreService } from '../../servicios/servicio-fire-store.service';
 import { RouterLink } from '@angular/router';
+import { MaterialModule } from '../../shared/material/material.module';
+
+
 
 
 @Component({
   selector: 'app-listado',
   standalone: true,
-  imports: [RouterLink],
+  imports: [RouterLink, MaterialModule],
   templateUrl: './listado.component.html',
   styleUrl: './listado.component.css'
 })

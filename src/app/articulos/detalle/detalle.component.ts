@@ -3,6 +3,7 @@ import { ServicioFireStoreService } from '../../servicios/servicio-fire-store.se
 import { ActivatedRoute } from '@angular/router';
 import { Articulo } from '../../modelos/articulo';
 
+
 @Component({
   selector: 'app-detalle',
   standalone: true,
